@@ -1,0 +1,24 @@
+<div class="min-h-screen bg-[rgb(4,10,31)] flex flex-col justify-between text-white px-4">
+    <app-header></app-header>
+    <div class="flex flex-row justify-between w-[70%] mx-auto mb-8">
+        <picture class="flex items-center justify-center">
+            <img src="../../../assets/images/ascender-sombra.png" alt="logo">
+        </picture>
+        <section class="w-[50%] max-w-[510px] border border-white px-5 pt-8 pb-10 flex flex-col items-center rounded-xl">
+            <h3 class="text-[1.8rem] font-bold text-cyan-400 text-center pb-6">Inicia Sesión</h3>
+            <mat-form-field appearance="outline" class="w-[80%] text-white">
+                <mat-label>Empresa</mat-label>
+                <input class="text-white" matInput placeholder="Ingresa tu correo electrónico" autocomplete="disabled">
+                <mat-icon matSuffix>email</mat-icon>
+            </mat-form-field>
+            <mat-form-field appearance="outline" class="w-[80%] mb-5 text-white">
+                <mat-label>Distrito</mat-label>
+                <input class="text-white" matInput placeholder="Ingresa tu contraseña" autocomplete="disabled">
+                <mat-icon matSuffix>lock</mat-icon>
+            </mat-form-field>
+            <button routerLink="/procesos" class="w-[50%] h-[2.5rem] mx-auto mt-5 bg-cyan-400" mat-raised-button
+                >Ingresar</button>
+        </section>
+    </div>
+    <app-footer></app-footer>
+</div>

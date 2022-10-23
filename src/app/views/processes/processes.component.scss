@@ -1,0 +1,35 @@
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+    color: white;
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline-thick {
+    color: gray;
+}
+
+::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+    color: #22d3ee;
+}
+
+::ng-deep .mat-form-field.mat-focused .mat-form-field-label {
+    color: #22d3ee;
+}
+
+::ng-deep .mat-input-element {
+    caret-color: #22d3ee;
+}
+
+::ng-deep .mat-form-field-label {
+    color: white;
+}
+
+::ng-deep .mat-stroked-button:not(.mat-button-disabled) {
+    border-color: #22d3ee;
+}
+
+::ng-deep tr.mat-header-row {
+    background-color: #caf2f9;
+}
+
+.mat-header-cell {
+    color: #000000;
+}
